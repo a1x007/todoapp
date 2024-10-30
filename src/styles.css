@@ -1,0 +1,200 @@
+/* General Container */
+.todo-container {
+  display: flex;
+  flex-direction: column;
+  /* Arrange child elements in a column */
+  margin: 20px;
+  font-family: Arial, sans-serif;
+  /* Clean font for readability */
+}
+
+/* Search Area */
+.search-area {
+  margin-bottom: 20px;
+  /* Space below the search area */
+}
+
+.search-box {
+  display: flex;
+}
+
+.search-input {
+  flex: 1;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+.search-input:focus {
+  border-color: #007bff;
+  /* Highlight border on focus */
+  outline: none;
+  /* Remove default outline */
+}
+
+.search-button {
+  padding: 12px 15px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 5px;
+  /* Space between input and button */
+  transition: background-color 0.3s;
+}
+
+.search-button:hover {
+  background-color: #0056b3;
+  /* Darken button on hover */
+}
+
+/* Todo Area */
+.todo-area {
+  margin-top: 20px;
+  /* Space above the todo area */
+}
+
+.todo-header {
+  margin-bottom: 10px;
+  font-size: 1.5em;
+  /* Larger header size */
+}
+
+.todo-items {
+  list-style-type: none;
+  padding: 0;
+}
+
+.todo-item {
+  padding: 10px;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.todo-item.active {
+  background-color: #007bff;
+  color: #fff;
+  /* White text for active item */
+}
+
+.todo-item:hover {
+  background-color: #f0f0f0;
+  /* Light hover effect */
+}
+
+/* Clear All Button */
+.clear-button {
+  padding: 6px 12px;
+  border: none;
+  background-color: #dc3545;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+  /* Spacing above the button */
+  transition: background-color 0.3s;
+}
+
+.clear-button:hover {
+  background-color: #c82333;
+  /* Darken button on hover */
+}
+
+/* Details Area */
+.details-area {
+  margin-top: 20px;
+  /* Space above the details area */
+}
+
+/* General Styles for the Form */
+.edit-form {
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  /* Light background for contrast */
+  margin-top: 20px;
+}
+
+/* General button styling */
+.button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  font-weight: bold;
+}
+
+/* Specific button styles */
+.publish-todo-btn {
+  background-color: #4caf50;
+  /* Green */
+  color: white;
+}
+
+.publish-todo-btn:hover {
+  background-color: #45a049;
+  transform: translateY(-2px);
+}
+
+.unpublish-todo-btn {
+  background-color: #f44336;
+  /* Red */
+  color: white;
+}
+
+.unpublish-todo-btn:hover {
+  background-color: #e53935;
+  transform: translateY(-2px);
+}
+
+.delete-todo-btn {
+  background-color: #ff9800;
+  /* Orange */
+  color: white;
+}
+
+.delete-todo-btn:hover {
+  background-color: #fb8c00;
+  transform: translateY(-2px);
+}
+
+.update-todo-btn {
+  background-color: #2196f3;
+  /* Blue */
+  color: white;
+}
+
+.update-todo-btn:hover {
+  background-color: #1976d2;
+  transform: translateY(-2px);
+}
+
+/* Edit Button Specific Styling */
+.edit-todo-btn {
+  background-color: #ffc107; /* Yellow */
+  color: white;
+}
+
+.edit-todo-btn:hover {
+  background-color: #ffb300;
+  transform: translateY(-2px);
+}
+
+
+/* Button group container */
+.button-group {
+  display: flex;
+  gap: 10px;
+  /* Space between buttons */
+  margin-top: 15px;
+  /* Space above button group */
+}
+
